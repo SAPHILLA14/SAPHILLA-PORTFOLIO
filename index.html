@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SAPHILLA PORTFOLIO </title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .hero-bg {
+      background-image: url('https://images.unsplash.com/photo-1508780709619-79562169bc64');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    h3.text-xl.font-semibold.mb-2 {
+    color: BLACK;
+    } 
+     span.font-semibold {
+          COLOR: BLACK;
+     }
+
+     p.text-sm.mb-4 {
+          color: black;
+     }
+
+     .highlight {
+  font-weight: bold;
+}
+.highlight {
+  font-weight: bold;
+  background: linear-gradient(to right, #fb923c, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+  </style>
+</head>
+
+<body class="text-white">
+
+  <!-- 🔹 Navbar -->
+  <nav class="fixed w-full z-50 bg-black/60 backdrop-blur-md">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl bg-gradient-to-r from-orange-400 to-pink-500 text-transparent bg-clip-text">Saphilla Portfolio</h1>
+
+      <ul class="flex gap-8 text-sm font-medium">
+        <li><a href="#hero" class="bg-gradient-to-r from-orange-400 to-pink-500 text-transparent bg-clip-text">Home</a></li>
+        <li><a href="#about" class="bg-gradient-to-r from-orange-400 to-pink-500 text-transparent bg-clip-text">About</a></li>
+        <li><a href="#projects" class="bg-gradient-to-r from-orange-400 to-pink-500 text-transparent bg-clip-text">Projects</a></li>
+        <li><a href="#tools" class="bg-gradient-to-r from-orange-400 to-pink-500 text-transparent bg-clip-text">Tools</a></li>
+        <li><a href="#contact" class="bg-gradient-to-r from-orange-400 to-pink-500 text-transparent bg-clip-text">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 🔹 Hero Section -->
+  <section id="hero" class="hero-bg min-h-screen flex flex-col justify-center items-center text-center px-4 relative">
+    
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-black/70"></div>
+
+    <div class="relative z-10">
+      <h1 class="text-5xl font-bold mb-3">
+        Hi, I'm <span class="bg-gradient-to-r from-orange-400 to-pink-500 text-transparent bg-clip-text">
+        SAPHILLA
+      </span>
+      </h1>
+      <p class="text-xl mb-6 text-gray-300">
+        A Front-End Developer/Designer who crafts beautiful web experiences.
+      </p>
+      <a href="#contact" class="px-6 py-3 bg-gradient-to-r from-orange-400 to-pink-500 text-white rounded-lg hover:bg-indigo-700 transition">
+        Let’s Talk
+      </a>
+    </div>
+  </section>
+  
+  <section id="about" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0f172a] via-[#111827] to-black text-white px-6">
+
+  <div class="max-w-4xl w-full">
+
+    <!-- Heading -->
+<h2 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+  I’m Professional 
+  <span class="bg-gradient-to-r from-orange-400 to-pink-500 text-transparent bg-clip-text">
+    Front-End Designer & Developer
+  </span>
+</h2>
+
+<!-- Description -->
+<p class="text-gray-300 leading-relaxed mb-10 text-lg">
+  <p>
+Creative and detail-oriented <span class="highlight">WordPress Designer & Developer</span> and 
+<span class="highlight">Certified UI/UX Designer</span> with expertise in building responsive, high-performance, and user-friendly websites. 
+
+Experienced in designing intuitive interfaces and completing multiple design and development projects. Proficient in design tools such as 
+<span class="highlight">Figma</span> and <span class="highlight">Adobe XD</span> for creating modern UI/UX designs and interactive prototypes. 
+
+I specialize in <span class="highlight">custom WordPress theme development, Elementor design, WooCommerce integration, SEO optimization, and website performance optimization</span>. 
+
+Passionate about crafting modern, user-focused digital experiences that align with business goals and deliver measurable results.
+</p>
+</p>
+
+    <!-- Info Card -->
+    <div class="bg-white/5 border border-white/10 backdrop-blur-xl rounded-2xl p-8 shadow-2xl grid md:grid-cols-2 gap-6 text-lg">
+      <p><span class="bg-gradient-to-r from-orange-400 to-pink-500 text-transparent bg-clip-text">Name:</span> SAPHILLA</p>      
+      <p><span class="bg-gradient-to-r from-orange-400 to-pink-500 text-transparent bg-clip-text">Email:</span> saphikingstah97@gmail.com</p>
+      <p>
+  <span class="bg-gradient-to-r from-orange-400 to-pink-500 text-transparent bg-clip-text">
+    Behance:
+  </span> 
+  <a href="https://www.behance.net/saphillakingstah" target="_blank" class="hover:underline">
+    Saphila Kingstah
+  </a>
+</p>
+    </div>  
+
+  </div>
+
+</section>
+
+
+
+<!-- 🔹 WordPress Works Section -->
+<section id="projects" class="relative py-20 px-6 bg-[#0f172a] text-white overflow-hidden">
+
+  <!-- Background Glow Effects -->
+  <div class="absolute top-0 left-0 w-96 h-96 bg-orange-500 opacity-20 blur-3xl rounded-full"></div>
+  <div class="absolute bottom-0 right-0 w-96 h-96 bg-pink-500 opacity-20 blur-3xl rounded-full"></div>
+
+  <!-- Subtle Grid Overlay -->
+  <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:40px_40px]"></div>
+
+  <div class="relative max-w-6xl mx-auto">
+    
+    <!-- Section Title -->
+    <div class="text-center mb-12">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">
+        My 
+        <span class="bg-gradient-to-r from-orange-400 to-pink-500 text-transparent bg-clip-text">
+          WordPress Projects
+        </span>
+      </h2>
+      <p class="text-gray-400 text-lg">
+        Professional websites built using WordPress, Elementor & Custom Themes.
+      </p>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Project Card -->
+      <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-300">
+        <img src="C:\Users\Asus-2022\Desktop\Portfolio\Images\Enablingportfolio.png"
+             alt="WordPress Website"
+             class="w-full h-56 object-cover">
+
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">Enabling Leadership</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            Corporate website designed for a NGO with responsive layout and SEO optimization.
+          </p>
+
+          <p class="text-sm mb-4">
+            <span class="font-semibold">Tools:</span> WordPress, Elementor, RankMath SEO
+          </p>
+
+          <a href="https://enablingleadership.org/" target="_blank"
+             class="inline-block bg-gradient-to-r from-orange-400 to-pink-500 text-white px-5 py-2 rounded-md text-sm hover:bg-indigo-700 transition">
+             View Live Site
+          </a>
+        </div>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-300">
+        <img src="C:\Users\Asus-2022\Desktop\Portfolio\Images\donateeL.png"
+             alt="WordPress Website"
+             class="w-full h-56 object-cover">
+
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">Donate Enabling Leadership</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            WooCommerce online store with payment integration and product filtering system.
+          </p>
+
+          <p class="text-sm mb-4">
+            <span class="font-semibold">Tools:</span> WordPress, WooCommerce
+          </p>
+
+          <a href="https://donate.enablingleadership.org" target="_blank"
+             class="inline-block bg-gradient-to-r from-orange-400 to-pink-500 text-white px-5 py-2 rounded-md text-sm hover:bg-indigo-700 transition">
+             View Live Site
+          </a>
+        </div>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-300">
+        <img src="C:\Users\Asus-2022\Desktop\Portfolio\Images\Enablingwin.png"
+             alt="WordPress Website"
+             class="w-full h-56 object-cover">
+
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">Enabling Win</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            Personal brand portfolio built with custom theme and optimized performance.
+          </p>
+
+          <p class="text-sm mb-4">
+            <span class="font-semibold">Tools:</span> WordPress, Custom Theme
+          </p>
+
+          <a href="https://enabling.win/" target="_blank"
+             class="inline-block bg-gradient-to-r from-orange-400 to-pink-500 text-white px-5 py-2 rounded-md text-sm hover:bg-indigo-700 transition">
+             View Live Site
+          </a>
+        </div>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-300">
+        <img src="C:\Users\Asus-2022\Desktop\Portfolio\Images\xlplus.png"
+             alt="WordPress Website"
+             class="w-full h-56 object-cover">
+
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">XL Plus Services</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            Business website featuring service pages, company profile, and contact lead generation system.
+          </p>
+
+          <p class="text-sm mb-4">
+            <span class="font-semibold">Tools:</span> WordPress,Elementor
+          </p>
+
+          <a href="https://xlplusservices.com/" target="_blank"
+             class="inline-block bg-gradient-to-r from-orange-400 to-pink-500 text-white px-5 py-2 rounded-md text-sm hover:bg-indigo-700 transition">
+             View Live Site
+          </a>
+        </div>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-300">
+        <img src="C:\Users\Asus-2022\Desktop\Portfolio\Images\Cloud9.png"
+             alt="WordPress Website"
+             class="w-full h-56 object-cover">
+
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">cloud9</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            WooCommerce online store with payment integration and product filtering system.
+          </p>
+
+          <p class="text-sm mb-4">
+            <span class="font-semibold">Tools:</span> WordPress, Elementor
+          </p>
+
+          <a href="https://cloud9.in/" target="_blank"
+             class="inline-block bg-gradient-to-r from-orange-400 to-pink-500 text-white px-5 py-2 rounded-md text-sm hover:bg-indigo-700 transition">
+             View Live Site
+          </a>
+        </div>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-300">
+        <img src="C:\Users\Asus-2022\Desktop\Portfolio\Images\rsdcpl.png"
+             alt="WordPress Website"
+             class="w-full h-56 object-cover">
+
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">RSDCPL Buldiers of Infrastructure</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            WooCommerce online store with payment integration and product filtering system.
+          </p>
+
+          <p class="text-sm mb-4">
+            <span class="font-semibold">Tools:</span> WordPress, WooCommerce
+          </p>
+
+          <a href="https://www.rsdcpl.com/" target="_blank"
+             class="inline-block bg-gradient-to-r from-orange-400 to-pink-500 text-white px-5 py-2 rounded-md text-sm hover:bg-indigo-700 transition">
+             View Live Site
+          </a>
+        </div>
+      </div>
+
+      <!-- Project Card -->
+      <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition duration-300">
+        <img src="C:\Users\Asus-2022\Desktop\Portfolio\Images\Jkingmart.png"
+             alt="WordPress Website"
+             class="w-full h-56 object-cover">
+
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">Jking Mart</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            WooCommerce online store with payment integration and product filtering system.
+          </p>
+
+          <p class="text-sm mb-4">
+            <span class="font-semibold">Tools:</span> WordPress, WooCommerce
+          </p>
+
+          <a href="https://jkingmart.com/" target="_blank"
+             class="inline-block bg-gradient-to-r from-orange-400 to-pink-500 text-white px-5 py-2 rounded-md text-sm hover:bg-indigo-700 transition">
+             Under Development
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- 🔹 Tools Section -->
+<section id="tools" class="py-24 bg-black text-white relative overflow-hidden">
+  
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    
+    <h2 class="text-4xl font-bold mb-16">
+      Tools I <span class="bg-gradient-to-r from-orange-400 to-pink-500 text-transparent bg-clip-text">Work With</span>
+    </h2>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-10">
+
+      <!-- Tool Card -->
+      <div class="bg-white/10 backdrop-blur-lg border border-white/20 
+                  p-8 rounded-2xl shadow-2xl 
+                  hover:scale-110 hover:rotate-3 
+                  transition duration-500">
+        <img src="https://cdn.worldvectorlogo.com/logos/wordpress-icon-1.svg" 
+             class="h-16 mx-auto mb-4">
+        <h3 class="font-semibold">WordPress</h3>
+      </div>
+
+      <div class="bg-white/10 backdrop-blur-lg border border-white/20 
+            p-8 rounded-2xl shadow-2xl 
+            hover:scale-110 hover:rotate-3 
+            transition duration-500">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" 
+       class="h-16 mx-auto mb-4">
+  <h3 class="font-semibold">Canva</h3>
+</div>
+
+      <div class="bg-white/10 backdrop-blur-lg border border-white/20 
+                  p-8 rounded-2xl shadow-2xl 
+                  hover:scale-110 hover:rotate-2 
+                  transition duration-500">
+        <img src="https://cdn.worldvectorlogo.com/logos/figma-icon.svg" 
+             class="h-16 mx-auto mb-4">
+        <h3 class="font-semibold">Figma</h3>
+      </div>
+
+      <div class="bg-white/10 backdrop-blur-lg border border-white/20 
+                  p-8 rounded-2xl shadow-2xl 
+                  hover:scale-110 hover:-rotate-2 
+                  transition duration-500">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-plain.svg" 
+             class="h-16 mx-auto mb-4">
+        <h3 class="font-semibold">Adobe XD</h3>
+      </div>
+
+      <div class="bg-white/10 backdrop-blur-lg border border-white/20 
+                  p-8 rounded-2xl shadow-2xl 
+                  hover:scale-110 hover:rotate-3 
+                  transition duration-500">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" 
+             class="h-16 mx-auto mb-4">
+        <h3 class="font-semibold">Illustrator</h3>
+      </div>
+
+      <div class="bg-white/10 backdrop-blur-lg border border-white/20 
+                  p-8 rounded-2xl shadow-2xl 
+                  hover:scale-110 hover:rotate-2 
+                  transition duration-500">
+        <img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" 
+             class="h-16 mx-auto mb-4">
+        <h3 class="font-semibold">HTML5</h3>
+      </div>  
+      
+      <div class="bg-white/10 backdrop-blur-lg border border-white/20 
+                  p-8 rounded-2xl shadow-2xl 
+                  hover:scale-110 hover:rotate-2 
+                  transition duration-500">
+        <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" 
+             class="h-16 mx-auto mb-4">
+        <h3 class="font-semibold">CSS5</h3>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <section id="contact" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0f172a] via-[#111827] to-black px-6">
+
+  <div class="w-full max-w-3xl bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-10 shadow-2xl">
+
+    <!-- Heading -->
+    <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+      Send Me a 
+      <span class="bg-gradient-to-r from-orange-400 to-pink-500 text-transparent bg-clip-text">
+        Message
+      </span>
+    </h2>
+
+    <p class="text-gray-400 mb-10">
+      Have a project in mind? Let’s build something amazing together.
+    </p>
+
+    <!-- Form -->
+    <form action="https://formsubmit.co/saphikingstah97@gmail.com" method="POST" class="space-y-6">
+
+      <!-- Disable Captcha -->
+      <input type="hidden" name="_captcha" value="false">
+
+      <!-- Name -->
+      <input type="text" name="name" placeholder="Your Name" required
+        class="w-full bg-white/10 border border-white/20 rounded-xl px-5 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500 transition duration-300">
+
+      <!-- Email -->
+      <input type="email" name="email" placeholder="Your Email" required
+        class="w-full bg-white/10 border border-white/20 rounded-xl px-5 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500 transition duration-300">
+
+      <!-- Message -->
+      <textarea name="message" rows="5" placeholder="Your Message" required
+        class="w-full bg-white/10 border border-white/20 rounded-xl px-5 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-orange-500 focus:ring-2 focus:ring-orange-500 transition duration-300"></textarea>
+
+      <!-- Button -->
+      <button type="submit"
+        class="w-full py-3 rounded-xl font-semibold text-white bg-gradient-to-r from-orange-500 to-pink-500 hover:scale-105 transform transition duration-300 shadow-lg shadow-orange-500/30">
+        Send Message 🚀
+      </button>
+
+    </form>
+
+  </div>
+
+</section>
+
+  <!-- Footer -->
+  <footer class="text-center py-12 bg-gray-900 text-white">
+  
+  <h2 class="text-2xl font-semibold">
+    Let’s build something amazing together 🚀
+  </h2>
+
+  <p class="text-gray-400 mt-2">
+    Need a WordPress website? I'm available for freelance projects.
+  </p>
+
+  <a href="#contact"
+     class="inline-block mt-6 px-6 py-3 bg-orange-500 rounded-lg hover:bg-orange-600 transition">
+     Get in Touch
+  </a>
+
+  <p class="text-gray-500 mt-8 text-sm">
+    © 2026 Saphilla Portfolio
+  </p>
+
+</footer>
+
+</body>
+</html>
